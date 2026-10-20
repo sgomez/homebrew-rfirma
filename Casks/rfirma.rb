@@ -1,6 +1,6 @@
 cask "rfirma" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.16.0"
+  sha256 "6a9f0c2128fcd0df04c6173b395d0a5a0dffd078c050f5b2b36e04fbba61c26a"
 
   url "https://github.com/sgomez/rfirma/releases/download/v#{version}/rfirma_#{version}_aarch64.dmg"
   name "rFirma"
