@@ -29,10 +29,8 @@ brew uninstall --cask rfirma        # la aplicación
 brew uninstall --zap --cask rfirma  # y además su configuración y sus datos
 ```
 
-Homebrew no toca dos cosas que rFirma instala fuera de su carpeta:
-
-- **La CA local**, en la confianza de tu usuario: bórrala en Acceso a Llaveros, llavero
-  «Inicio de sesión».
-- **El manejador de `afirma://`**: si vuelves a AutoFirma, ábrela para que las sedes la usen.
+Antes, abre **Estado de rFirma** y pulsa **Retirar…**: quita la CA local de la confianza de
+tu usuario y devuelve los enlaces `afirma://` a la aplicación que los atendía, como
+AutoFirma. Homebrew no toca ninguna de las dos.
 
 El cask se actualiza solo cada día desde la última Release estable.
